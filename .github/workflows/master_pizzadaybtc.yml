@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'pizzadaybtc'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1491A77708D54C848F1013881263DFE3 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CCA579988CAD4E098172051E6BD980E5 }}
           package: .
