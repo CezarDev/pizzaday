@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Pizza Day",
+  "name": "O valor da pizza comprada com BTC",
   "icons": [
     {
       "src": "favicon.ico",

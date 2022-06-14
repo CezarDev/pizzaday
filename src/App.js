@@ -1,12 +1,15 @@
-import logo from './logo.svg';
+import pizza from './assets/pizza.png';
 import './App.css';
+import CotacaoAtual from './components/CotacaoAtual';
 
 function App() {
+  
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <CotacaoAtual />
+        <img src={pizza} className="App-logo" alt="logo" />
+        {/* <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
@@ -16,7 +19,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
       </header>
     </div>
   );
