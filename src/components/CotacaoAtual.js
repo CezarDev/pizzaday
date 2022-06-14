@@ -10,18 +10,17 @@ function CotacaoAtual(){
 
     useEffect(() => {
         fetch(URL, {
-        }).then(function(response){
-            response.json()
-            .then(function (data){
-                setCotacao(data)
-               
-           })
-        }).catch(function (error){
+            }).then(function(response){
+                response.json()
+                .then(function (data){
+                    setCotacao(data)    
+                })
+            })
+        .catch(function (error){
             console.log(error)
         })
-    
     }, [])
-            
+        
     return (
         <h1>BTC/USDT:  $ {cotacao.price}</h1>
     )    
