@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
+.App-logo, .App-logo2 {
   height: 40vmin;
   pointer-events: none;
 }
@@ -11,6 +11,14 @@
   .App-logo {
     /* animation: App-logo-spin infinite 20s linear; */
     animation: App-logo-spin infinite alternate-reverse 20s linear;
+    border-radius: 300px;  
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo2 {
+    /* animation: App-logo-spin infinite 20s linear; */
+    animation: App-logo2-spin infinite alternate-reverse 20s linear;
     border-radius: 300px;  
   }
 }
@@ -39,11 +47,18 @@
   }
 }
 
+@keyframes App-logo2-spin {
+  from {
+    transform: rotate(180deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
 .imagens{
   justify-items: auto;
 }
-
-
 
 .cotacao {
   height: auto;

@@ -14,7 +14,7 @@ function App() {
         </div>
         <div className="imagens">
         <img src={pizza} className="App-logo" alt="logo" />
-        <img src={pizza} className="App-logo" alt="logo" />
+        <img src={pizza} className="App-logo2" alt="logo" />
         </div>
         <p>
          10.000 BTC IN 2 PIZZAS
