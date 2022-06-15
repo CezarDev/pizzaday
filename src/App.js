@@ -1,26 +1,27 @@
-import pizza from './assets/pizza.png';
+import pizza from './assets/pizza.jpg';
 import './App.css';
 import CotacaoAtual from './components/CotacaoAtual';
 
 function App() {
   
   return (
+    
     <div className="App">
+       
       <header className="App-header">
+      <div className= "cotacao">
         <CotacaoAtual />
+        </div>
+        <div className="imagens">
         <img src={pizza} className="App-logo" alt="logo" />
+        <img src={pizza} className="App-logo" alt="logo" />
+        </div>
         <p>
-         BTC IN PIZZA
+         10.000 BTC IN 2 PIZZAS
         </p>
-        {/* <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a> */}
+          <h4>SS</h4>
       </header>
+     
     </div>
   );
 }

@@ -9,7 +9,9 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    /* animation: App-logo-spin infinite 20s linear; */
+    animation: App-logo-spin infinite alternate-reverse 20s linear;
+    border-radius: 300px;  
   }
 }
 
@@ -33,12 +35,22 @@
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(180deg);
   }
 }
 
-h1{
-  align-items: flex-start;
-  text-align: start;
-  margin-top: 2 rem
+.imagens{
+  justify-items: auto;
 }
+
+
+
+.cotacao {
+  height: auto;
+  color: rgb(230, 176, 1);
+  /* animation:  App-logo-spin infinite 55s alternate; */
+  background-color: #282c34;
+  
+}
+
+
