@@ -19,7 +19,6 @@ function App() {
         <p>
          10.000 BTC IN 2 PIZZAS
         </p>
-          <h4>SS </h4>
       </header>
      
     </div>

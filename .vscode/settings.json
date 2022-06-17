@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/75b45d26-d61d-4b4f-9ea3-7fd98683e13d/microsoft.web/sites/subscriptions/75b45d26-d61d-4b4f-9ea3-7fd98683e13d/resourceGroups/pizzadaybtc_group/providers/Microsoft.Web/sites/pizzadaybtc",
+    "appService.deploySubpath": "build"
+}
