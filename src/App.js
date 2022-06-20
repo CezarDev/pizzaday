@@ -8,15 +8,11 @@ function App() {
     
     <div className="App">       
       <header className="App-header">
-      <div className= "cotacao">
-        <CotacaoAtual />
+        <CotacaoAtual />     
         <PizzasIMG />
-        </div>        
-        <p>
-         10.000 BTC IN 2 PIZZAS
-        </p>
-      </header>
-     
+        </header> 
+          <h4>by: Cezar Alves</h4>
+          <h4>cezar.alves.dev@gmail.com</h4>
     </div>
   );
 }
